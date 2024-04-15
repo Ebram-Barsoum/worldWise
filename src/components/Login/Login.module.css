@@ -1,0 +1,36 @@
+.login{
+    background-color: #242a2e;
+    margin:20px;
+    position: relative;
+    height:calc(100dvh - 40px);
+}
+
+.login form button{
+    width: fit-content;
+    align-self: center;
+    background-color: #00c46a;
+    border:none !important;
+}
+
+.login form button:hover,
+.login form button:focus {
+    background-color: #00c46a !important;
+    color:#000 !important;
+}
+
+.login form{
+    background-color: #42484d;
+}
+
+@media(max-width:500px){
+    .login{
+        margin:5px !important;
+        height: calc(100dvh - 10px);
+    }
+  }
+
+  @media(max-width:400px){
+    .login{
+        min-height: calc(100dvh - 10px);
+    }
+  }

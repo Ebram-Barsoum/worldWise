@@ -1,0 +1,18 @@
+.spinner{
+    background-color: var( --color-dark--0) !important;
+    margin:20px;
+    width: calc(100vw - 40px) !important;
+    height: calc(100dvh - 40px) !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:500px){
+    .spinner{
+        margin:5px;
+        width: calc(100vw - 10px) !important;
+        height: calc(100dvh - 10px) !important;
+    }
+}

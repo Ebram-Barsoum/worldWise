@@ -1,0 +1,39 @@
+.home{
+    margin:20px;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../../public/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: calc(100dvh - 40px);
+    position: relative;
+}
+
+.home section h1{
+   font-weight: bold;
+}
+
+.home section a{
+    width: fit-content;
+    align-self: center;
+    background-color: #00c46a;
+    text-transform: uppercase;
+    border:none !important;
+}
+
+.home section a:hover,
+.home section a:focus {
+    background-color: #00c46a !important;
+    color:#000 !important;
+}
+
+@media(max-width:500px){
+    .home{
+      margin:5px !important;
+      height: calc(100dvh - 10px);
+    }
+  }
+
+  @media(max-width:400px){
+    .home{
+        min-height: calc(100dvh - 10px);
+    }
+  }

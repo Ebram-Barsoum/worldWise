@@ -1,0 +1,4 @@
+.app{
+    margin:20px !important;
+    height: calc(100dvh - 40px);
+}

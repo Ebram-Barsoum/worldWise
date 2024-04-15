@@ -1,0 +1,14 @@
+.pricing{
+    background-color: #242a2e;
+    margin:20px;
+    position: relative;
+    height: calc(100dvh - 40px);
+}
+
+@media(max-width:500px){
+    .pricing{
+      margin:5px !important;
+      min-height: calc(100dvh - 10px);
+    }
+  }
+

@@ -1,0 +1,5 @@
+.countryItem{
+    border-left:5px solid var(--color-brand--1);
+    background-color: var(--color-dark--2);
+    justify-self: start !important;
+}

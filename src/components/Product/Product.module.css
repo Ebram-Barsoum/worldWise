@@ -1,0 +1,19 @@
+.product{
+    background-color: #242a2e;
+    margin:20px;
+    position: relative;
+    height: calc(100dvh - 40px);
+}
+
+@media(max-width:500px){
+    .product{
+      margin:5px !important;
+      height: calc(100dvh - 10px);
+    }
+  }
+
+  @media(max-width:400px){
+    .product{
+        height: auto;
+    }
+  }

@@ -1,0 +1,25 @@
+.sidebar{
+    background-color: #242a2e;
+}
+.sidebar > ul{
+    width: fit-content;
+    background-color: #2d3439;
+}
+
+.sidebar  ul a{
+   text-decoration: none;
+   color:#fff;
+
+}
+
+.sidebar  ul li :global(a.active){
+    background-color: #00c46a !important;
+    color:#fff !important;
+}
+
+.dynamicContent{
+    max-height: 70% !important;
+}
+.sidebar footer{
+    justify-self: end;
+}

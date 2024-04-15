@@ -1,0 +1,28 @@
+.form{
+    background-color: var(--color-dark--1) !important;
+    height: fit-content;
+}
+.buttons button{
+    color:#fff; 
+}
+.buttons button:first-child{
+    border:none;
+    background-color: var(--color-brand--2);
+}
+.buttons button:first-child:focus{
+    background-color: var(--color-brand--2);
+}
+.buttons button:nth-child(2){
+    border:1px solid #fff;
+}
+
+.emoji{
+    position: absolute;
+    color:#000;
+    right:0% !important;
+
+}
+
+:global(.react-datepicker-wrapper){
+    width: 100% !important;
+}

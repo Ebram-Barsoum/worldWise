@@ -1,0 +1,7 @@
+.cityDetails{
+    background-color: var(--color-dark--1);
+}
+
+.cityDetails a{
+    color: var(--color-brand--1);
+}
